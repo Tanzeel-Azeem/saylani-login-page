@@ -10,6 +10,10 @@
 
 <body>
 
+    <div>
+        
+    </div>
+
     <div class="daddy">
 
         <main> <!--main div for all content-->
@@ -29,7 +33,7 @@
                     <div class="input-container"> <!--input div-->
 
                         <div class="input">
-                            <input type="text" placeholder="iamchis_wallace@email.com">
+                            <input type="text" placeholder="iamchis_wallace@email.com" id="userEmail" required>
 
                             <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +45,7 @@
                         </div>
 
                         <div class="input">
-                            <input type="text" placeholder="Password">
+                            <input type="text" placeholder="Password" id="userPassword" required>
 
                             <!-- svg for lock icon -->
                             <svg class="icon" id="lock" width="17" height="20" viewBox="0 0 17 20" fill="none"
@@ -76,7 +80,7 @@
                     <!-- =================sign in button =================== -->
 
                     <div class="signIn">
-                        <button>Sign in</button>
+                        <input type="button" value="Sign in" id="loginButton">   
                     </div>
 
 
@@ -174,13 +178,6 @@
                 </div>
 
 
-
-
-
-
-
-
-
             </section>
 
 
@@ -189,10 +186,9 @@
             </section>
 
 
-
-
         </main>
     </div>
 </body>
+<script src="main.js"></script>
 
 </html>
